@@ -28,7 +28,7 @@
 
 .nested-main {
   /* border: 1px solid black; */
-  margin-top: 10%;
+  margin-top: 6%;
   width: 70%;
   height: 50%;
   display: grid;
@@ -61,7 +61,7 @@
 
 .cards {
   display: grid;
-  grid-template-rows: 5rem 1fr 10rem;
+  grid-template-rows: 5rem 1fr 0.1fr;
 }
 
 .card3 {
