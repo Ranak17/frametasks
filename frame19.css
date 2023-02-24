@@ -6,13 +6,14 @@
 }
 
 .container {
+  display: grid;
+  grid-template-rows: 3.5rem 1fr 3rem;
   min-height: 100vh;
-  /* background-color: pink; */
 }
 
 .navbar {
   display: grid;
-  height: 3.4rem;
+  /* height: 3.4rem; */
   background-color: #f8f9fa;
   /* background-color: green; */
   grid-template-columns: 13rem 4fr 12rem;
@@ -87,4 +88,69 @@
 
 .mr0_4 {
   margin-right: 0.4rem;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 2.4fr 1fr;
+}
+
+.right {
+  background-image: linear-gradient(to right, #f1f1f1, #f4f4f4, #f1f1f1);
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: 6rem repeat(auto-fit, 3rem);
+  row-gap: 1.2rem;
+}
+
+.font0_8 {
+  font-size: 0.8rem;
+  display: block;
+  margin-top: 0.4rem;
+  color: #525252;
+}
+
+.font0_8n {
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.fi-heading {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.dropdown {
+  justify-content: space-between;
+  border: 1px solid #cfd4d9;
+  background-color: white;
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 2.4fr 1fr;
+}
+.rt-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  background-color: #f8f9fa;
+}
+
+.rf-item {
+  border: 1px solid;
+  width: 7rem;
+  margin-right: 0.5rem;
+  border-radius: 0.2rem;
+  height: 80%;
+}
+
+.prcd {
+  background-color: #0d6efd;
+  color: white;
 }
