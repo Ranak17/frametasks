@@ -199,6 +199,8 @@ div.dataTables_wrapper {
   height: 70%;
   /* border: 1px solid black; */
   padding-right: 1rem;
+  overflow: overlay;
+  scroll-padding-top: 50px;
 }
 
 .tabl {
@@ -213,7 +215,7 @@ div.dataTables_wrapper {
 .tabl th {
   padding: 0.75rem;
   vertical-align: top;
-  border-top: 1px solid #dee2e6;
+  /* border-top: 1px solid #dee2e6; */
 }
 
 .tabl th {
@@ -224,21 +226,26 @@ div.dataTables_wrapper {
 .tabl thead th {
   vertical-align: bottom;
   border-bottom: 2px solid #dee2e6;
+  border-right: 2px solid #dee2e6;
 }
 
 .tabl tbody + tbody {
   border-top: 2px solid #dee2e6;
+}
+.tabl tbody td {
+  border-bottom: 2px solid #dee2e6;
+  border-right: 2px solid #dee2e6;
 }
 
 ::-webkit-scrollbar {
   width: 1.4rem;
   height: 1.4rem;
 }
-::-webkit-scrollbar-track {
-  /* background-color: pink; */
-  background-clip: padding-box;
-  /* margin: 1rem; */
+::-webkit-scrollbar-track:horizontal {
+  background-color: white;
+}
 
+::-webkit-scrollbar-track:vertical {
   margin-top: 3rem;
 }
 
@@ -247,4 +254,12 @@ div.dataTables_wrapper {
   border-radius: 1rem;
   border: 0.5rem solid transparent;
   background-clip: content-box;
+}
+
+.borderless {
+  border-right: none !important;
+}
+
+.lstrow {
+  border-bottom: none !important;
 }
