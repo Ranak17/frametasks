@@ -7,10 +7,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="frame19.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-  </head>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+    <!-- <link rel="stylesheet" 
+
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
   <body>
-    <div class="container">
-      <div class="navbar">
+    <div class="cont">
+      <div class="navb">
         <div class="left-nav">
           <div class="icon-img">
             <div class="dfjcac mr0_4">
@@ -50,8 +57,95 @@
         <div class="left">
             <div class="dfac"><span class="lheading">Imported data</span><span class="uploadfile">mda_kk_sample_data.xls</span><span class="material-symbols-outlined">
                 delete
-                </span></div>
-            <div></div>
+                </span>
+              </div>
+        <div id="collap" class="tablediv">
+          <table class="tabl">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Email</th>
+          <th>Email</th>
+          <th>Email</th>
+          <th>Email</th>
+          <th>Email</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody  >
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+        </tr>
+    <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+        </tr>
+    <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+        </tr>
+    <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+        </tr>
+    <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+        </tr>
+    <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+          <td>john@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+        </div>
+          
+          
         </div>
         <div class="right">
           <div>
@@ -105,5 +199,14 @@ expand_more
       </div>
       </div>
     </div>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#dtHorizontalExample').DataTable({
+            "scrollX": true
+        });
+        $('.dataTables_length').addClass('bs-select');
+      });
+    </script>
   </body>
 </html>
