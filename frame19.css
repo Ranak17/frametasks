@@ -257,11 +257,18 @@ div.dataTables_wrapper {
 .borderless {
   border-right: none !important;
 }
-
+.btn-primary {
+  display: flex;
+  align-items: center;
+  color: white;
+}
 .lstrow {
   border-bottom: none !important;
 }
-
+.material-symbols-outlined {
+  font-size: 1.3rem;
+  margin-left: 3px;
+}
 .form-control,
 .form-select {
   padding: 0.3rem !important;
@@ -278,4 +285,9 @@ div.dataTables_wrapper {
 
 .dataTables_wrapper {
   width: 100% !important;
+}
+
+.btn-light {
+  border: 1px solid #6c757d !important;
+  margin-right: 0.5rem;
 }
