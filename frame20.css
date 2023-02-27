@@ -17,7 +17,7 @@
     /* height: 3.4rem; */
     background-color: #f8f9fa;
     /* background-color: green; */
-    grid-template-columns: 21rem 4fr 12rem;
+    grid-template-columns: 1.7fr 4fr 1fr;
   }
   
   .dfjcac {
@@ -134,6 +134,7 @@ align-items: center;
     display: grid;
     grid-template-rows: 1.5rem repeat(auto-fit, 4rem);
     row-gap: 0.5rem;
+    /* width: 18rem; */
   }
 
   .fi-heading {
