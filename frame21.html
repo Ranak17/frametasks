@@ -128,8 +128,11 @@
                 </span>
             </div>
           </div>
-          <div class="last-form-item">
-            
+          <div id="last-form-item">
+            <div class="dfjsb">
+            <span id="insights">INSIGHTS</span>
+            <img id="arrow" src="images/arrow-up-right-square.svg" alt="" ></div>
+            <span id="insights2"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
           </div>
         </div>
         <div class="right">
@@ -231,5 +234,12 @@
    $('#example').DataTable();
  });
      </script>
+      <script>
+        const arrowImg = document.querySelector('#arrow');
+        arrowImg.addEventListener('click', function() {
+          const myDiv = document.querySelector("#last-form-item");
+      myDiv.classList.toggle("expanded");
+  });
+      </script>
   </body>
 </html>

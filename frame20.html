@@ -127,9 +127,17 @@
                 </span>
             </div>
           </div>
-          <div class="last-form-item">
+          <div id="insight-box">
+          <div id="last-form-item">
+            <div class="dfjsb">
+            <span id="insights">INSIGHTS</span>
+            <img id="arrow" src="images/arrow-up-right-square.svg" alt="" ></div>
+            <span id="insights2"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+          </div>
+          <div>
             
           </div>
+        </div>
         </div>
         <div class="right">
             <nav class="navbar navbar-expand-sm bg-white">
@@ -156,5 +164,13 @@
       </div>
     </div>
     <script type="text/javascript" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+  
+    <script>
+      const arrowImg = document.querySelector('#arrow');
+      arrowImg.addEventListener('click', function() {
+        const myDiv = document.querySelector("#last-form-item");
+    myDiv.classList.toggle("expanded");
+});
+    </script>
   </body>
 </html>

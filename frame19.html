@@ -19,22 +19,6 @@
     crossorigin="anonymous"></script>
     <style>
 
-#myDiv {
-  width: 250px;
-  height: 200px;
-  background-color: blue;
-  transition: width 0.5s, height 0.5s, left 0.5s, bottom 0.5s;
-  position: relative;
-}
-
-#myDiv.expanded {
-  width: 320px;
-  height: 400px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  padding: 2rem;
-}
 
     </style>
 
@@ -157,7 +141,7 @@
         </table>
        
         </div>
-        <div id="myDiv">CLICK ME</div>
+        
           
         </div>
         <div class="right">
@@ -227,14 +211,6 @@ east
     <script type="text/javascript">
      $(document).ready(function() {
   $('#example').DataTable();
-});
-
-    </script>
-    <script>
-      const myDiv = document.querySelector('#myDiv');
-
-myDiv.addEventListener('click', function() {
-  myDiv.classList.toggle('expanded');
 });
 
     </script>
