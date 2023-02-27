@@ -191,7 +191,9 @@ align-items: center;
   background-clip: content-box;
 }
 
-
+.tac{
+  text-align: center;
+}
 
 
 .strt-end-year{
