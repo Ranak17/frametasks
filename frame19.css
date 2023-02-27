@@ -258,7 +258,8 @@ div.dataTables_wrapper {
   border-right: none !important;
 }
 .btn-primary {
-  display: flex;
+  display: flex !important;
+  margin: 0 1.5rem 0 0;
   align-items: center;
   color: white;
 }
@@ -266,7 +267,8 @@ div.dataTables_wrapper {
   border-bottom: none !important;
 }
 .material-symbols-outlined {
-  font-size: 1.3rem;
+  color: white !important;
+  font-size: 1.3rem !important;
   margin-left: 3px;
 }
 .form-control,
