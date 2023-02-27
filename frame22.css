@@ -230,6 +230,8 @@
 
   .right-main{
     height: 100%;
+    
+    box-shadow: 0 0 8px #d6dada;
     /* padding: 2rem 2rem 0 3rem; */
     
     background-color: #f1f6f6;
