@@ -156,7 +156,9 @@ align-items: center;
     padding: 2rem;
     background-color: #F1F6F6;
   }
-
+  #navbarNavAltMarkup{
+    border-bottom: 1px solid #e6e6e6;
+      }
   .input-group{
     width: 48% !important;
   }

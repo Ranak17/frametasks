@@ -190,7 +190,9 @@ align-items: center;
   border: 0.5rem solid transparent;
   background-clip: content-box;
 }
-
+#navbarNavAltMarkup{
+  border-bottom: 1px solid #e6e6e6;
+    }
 .tac{
   text-align: center;
 }
