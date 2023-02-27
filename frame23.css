@@ -109,7 +109,7 @@
   
   .image{
     height: 100%;
-    width: 100%;
+    width: 96%;
     object-fit: cover;
   }
   
@@ -240,3 +240,23 @@
     padding: 2rem;
     background-color: #f1f6f6;
   }
+
+  .card{
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 0 0 5px #d6dada;
+    /* margin: 0 1rem 1rem 1rem; */
+    /* box-shadow: 5px 5px 5px 10px red; */
+  }
+.card-heading{
+    display: flex;
+    font-weight: bold;
+    margin:0.8rem;
+    
+}
+  .card-container{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 0.4rem;
+row-gap: 1.5rem;
+}
